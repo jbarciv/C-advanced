@@ -13,3 +13,9 @@ gcc process_1.c common.h -o process_1
 gcc process_2.c common.h -lm -o process_2
 ./process_1 & ./process_2
 ```
+3. Shared memory with busy waiting
+```
+gcc process_1.c common.h -o process_1
+gcc process_2.c common.h -lm -o process_2
+./process_1 & ./process_2
+```
