@@ -23,5 +23,6 @@ gcc process_2.c -lm -o process_2
 ```
 gcc producer.c func.c -o producer.c
 gcc consumer.c func.c -o consumer.c
+# Better to run it on different terminals. 
+# In the first half of the total number of iterations, the producer will be faster than the consumer, but in the second half the roles will be switched.
 ```
-better to run it on different terminals. In the first half of the total number of iterations, the producer will be faster than the consumer, but in the second half the roles will be switched.
