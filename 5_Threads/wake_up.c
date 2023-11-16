@@ -48,7 +48,7 @@ void* up()
         printf("\n Hello, soy el thread 2\n" );
         sleep(1);
 
-        if(i==1)
+        if(i==3)
         {
             pthread_mutex_lock(&mut);
             pthread_cond_signal(&cond);
