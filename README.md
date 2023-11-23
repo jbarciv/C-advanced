@@ -40,3 +40,15 @@ The `thr_sync_strict_alt_lost_wakeups.c` file contains a *strict alternation* be
 gcc thr_sync_strict_alt_lost_wakeups.c -o thr -lpthread
 ./thr
 ```
+**6.** **Sockets**
+
+It is a very simple example of client-server comunnication with the TCP protocol.
+
+```
+gcc server.c -o server
+gcc client.c -o client
+# Better to run on different terminals. And remember to launch always the server firts.
+./server
+# In other terminal
+./client 127.0.0.1 5000
+```
