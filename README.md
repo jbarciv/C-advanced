@@ -42,13 +42,14 @@ gcc thr_sync_strict_alt_lost_wakeups.c -o thr -lpthread
 ```
 **6.** **Sockets**
 
-It is a very simple example of client-server comunnication with the TCP protocol.
+It is a very simple example of client-server comunnication with the TCP and UDP protocols.
 
 ```
-gcc server.c -o server
-gcc client.c -o client
+gcc TCP_server.c -o server
+gcc TCP_client.c -o client
 # Better to run on different terminals. And remember to launch always the server firts.
 ./server
 # In other terminal
 ./client 127.0.0.1 5000
 ```
+the same with the UDP files.
