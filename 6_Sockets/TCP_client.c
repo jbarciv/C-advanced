@@ -23,12 +23,13 @@
 #define SERVPORT 5000
 #define BUFFER_SIZE 300
 
-int main(int argc, char*argv[]) {
+int main(int argc, char*argv[]) 
+{
     int ID_serv, p;
     struct sockaddr_in server_addr;
     struct hostent *host_name;
     char chain[BUFFER_SIZE];
-    ID_serv = socket(AF_INET, SOCK_STREAM, 0); //parametros: TCP/IP,define protocolo TCP,0
+    ID_serv = socket(AF_INET, SOCK_STREAM, 0);
     server_addr.sin_family = AF_INET;
     server_addr.sin_port = htons(SERVPORT);
     inet_aton(argv[1], &server_addr.sin_addr);
@@ -40,12 +41,15 @@ int main(int argc, char*argv[]) {
         exit(1);
     }
 
-    while (1){
+    while (1)
+    {
         printf("type data to be sent: \n");
         fgets(chain, BUFFER_SIZE, stdin);
         printf("data to be sent: %s\n",chain);
+
         write(ID_serv, (char *)chain, strlen(chain)+1);
         read(ID_serv, (char *)chain, BUFFER_SIZE);
+
         printf("\nmessage from the server: \n%s\n", chain);
     }
     close(ID_serv);

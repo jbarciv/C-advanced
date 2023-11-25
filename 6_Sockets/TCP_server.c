@@ -49,13 +49,13 @@ int main(int argc, char *argv[])
     printf("IP localhost is 127.0.0.1 and port server is: %d\n", SERVPORT);
     listen(ID_serv,5);
     sfd = accept(ID_serv, (struct sockaddr*) &client_addr, &p);
+
     while (1)
     {
         printf("Server waiting...\n");
         read(sfd, (char *) chain2, BUFFER_SIZE);
         printf("%s\n", chain2);
         write(sfd, (char *) chain2, strlen(chain2)+1);
-        
     }
     close(ID_serv);
     return 0;
