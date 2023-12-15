@@ -59,4 +59,5 @@ int main(void)
     semctl(semid, SEM_2, IPC_RMID, 0);
     
     printf("The end for John (consumer)!\n");
+    return 0;
 }

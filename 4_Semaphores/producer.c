@@ -75,4 +75,5 @@ int main(void)
     semctl(semid, SEM_2, IPC_RMID, 0);
     
     printf("The end for Jerry (producer)!\n");
+    return 0;
 }
