@@ -2,7 +2,7 @@
                      MASTER IN ROBOTICS
                          ETSII - UPM
                      Advanced Programming
-                      --> Practice 3 <--
+                      --> Practice 2 <--
 
     - Student: Josep Maria Barbera Civera
     - NMat: 17048

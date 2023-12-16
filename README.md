@@ -53,3 +53,13 @@ gcc TCP_client.c -o client
 ./client 127.0.0.1 5000
 ```
 the same with the UDP files.
+
+**7.** **Dynamic Structures**
+
+This folder includes a simple code for the creation of random vectors between 1 and 100 and their subsequent sorting by recursion and the construction of a dynamic sorted tree.
+```
+gcc main.c functions.c -o sorting
+./sorting
+```
+modify `SIZE` in `common.h` for a different vector size.
+

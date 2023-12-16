@@ -2,7 +2,7 @@
                      MASTER IN ROBOTICS
                          ETSII - UPM
                      Advanced Programming
-                 --> Practice 7: Sockets <--
+                 --> Practice 6: Sockets <--
 
     - Credit: Professor Claudio Rossi - DISAM
     - Student: Josep Maria Barbera Civera

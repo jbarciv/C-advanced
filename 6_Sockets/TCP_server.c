@@ -3,7 +3,7 @@
                      MASTER IN ROBOTICS
                          ETSII - UPM
                      Advanced Programming
-                 --> Practice 7: Sockets <--
+                 --> Practice 6: Sockets <--
 
     - Student: Josep Maria Barbera Civera
     - NMat: 17048

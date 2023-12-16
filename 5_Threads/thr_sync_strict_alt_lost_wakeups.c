@@ -3,9 +3,9 @@
 // MASTER IN ROBOTICS
 //   ETSII - UPM
 //
-// LOST WAKEUPS EXAMPLE (Practice 6)
+// LOST WAKEUPS EXAMPLE (Practice 5)
 // Advanced Programming
-// Claudio Rossi 2022
+// First version: Professor Claudio Rossi - 2022
 //
 // Student: Josep Maria Barbera Civera (November 2023)
 // ID: 17048

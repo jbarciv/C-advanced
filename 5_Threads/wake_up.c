@@ -2,7 +2,7 @@
                      MASTER IN ROBOTICS
                          ETSII - UPM
                      Advanced Programming
-                 --> Practice 6: Threads <--
+                 --> Practice 5: Threads <--
 
     - Student: Josep Maria Barbera Civera
     - NMat: 17048
